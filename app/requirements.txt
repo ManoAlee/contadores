@@ -1,0 +1,7 @@
+pysnmp==4.4.12
+pyasyncore
+PySimpleGUI==5.0.8.3
+pytest==7.4.0
+customtkinter==5.2.1
+pillow>=10.2.0
+matplotlib>=3.9.0

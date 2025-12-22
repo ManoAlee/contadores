@@ -1,0 +1,60 @@
+{
+  "requested": [
+    "GENTILEZA",
+    "79G5C52",
+    "X464DN",
+    "35P7G2H",
+    "35P7YPZ",
+    "35P86Z5",
+    "35P7G10"
+  ],
+  "mapping": {
+    "35P7G10": {
+      "counter": "169116",
+      "ip": "10.0.0.173",
+      "location": "TI",
+      "model": "Lexmark X464de version NR.APS.N833 kernel 2.6.18.5 All-N-1",
+      "serial_raw": "35P7G10-89-0",
+      "family": "X464"
+    },
+    "79G5C52": {
+      "counter": "324184",
+      "ip": "10.0.0.172",
+      "location": "ADM",
+      "model": "Lexmark X656de version NR.APS.N833 kernel 2.6.18.5 All-N-1",
+      "serial_raw": "79G5C52-91-0",
+      "family": "X656"
+    },
+    "35P7G2H": {
+      "counter": "153885",
+      "ip": "10.0.0.171",
+      "location": "Expedicao",
+      "model": "Lexmark X464de version NR.APS.N833 kernel 2.6.18.5 All-N-1",
+      "serial_raw": "35P7G2H-89-0"
+    },
+    "35P7YPZ": {
+      "counter": "215269",
+      "ip": "10.0.0.170",
+      "location": "Service",
+      "model": "Lexmark X464de version NR.APS.N833 kernel 2.6.18.5 All-N-1",
+      "serial_raw": "35P7YPZ-89-0",
+      "family": "X464"
+    },
+    "35P86Z5": {
+      "counter": "151676",
+      "ip": "10.0.0.169",
+      "location": "Vendas",
+      "model": "Lexmark X464de version NR.APS.N644 kernel 2.6.18.5 All-N-1",
+      "serial_raw": "35P86Z5-89-0",
+      "family": "X464"
+    },
+    "35P72TB": {
+      "ip": "10.0.0.171",
+      "location": "Expedicao",
+      "model": "Lexmark X464de version NR.APS.N833 kernel 2.6.18.5 All-N-1",
+      "serial_raw": "35P72TB-89-0",
+      "counter": "214444",
+      "family": "X464"
+    }
+  }
+}
