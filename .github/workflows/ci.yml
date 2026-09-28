@@ -1,0 +1,26 @@
+name: Contadores Impressoras CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  python-syntax:
+    name: Python Compilation & Module Check
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Verify Python Compilation
+        run: |
+          find app printer_automation -name "*.py" -exec python -m py_compile {} +
+          python -m py_compile run.py
+          echo "All contadores python modules compiled cleanly."
+        shell: bash
