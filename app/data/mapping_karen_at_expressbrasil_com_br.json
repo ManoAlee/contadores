@@ -11,7 +11,7 @@
   "mapping": {
     "35P7G10": {
       "counter": "169116",
-      "ip": "10.0.0.173",
+      "ip": "192.168.1.200",
       "location": "TI",
       "model": "Lexmark X464de version NR.APS.N833 kernel 2.6.18.5 All-N-1",
       "serial_raw": "35P7G10-89-0",

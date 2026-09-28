@@ -1,7 +1,7 @@
 # email_parser.py
 """email_parser.py
 Utility to connect to an IMAP mailbox, fetch emails with subject
-"CONTADORES AUTOMOTION", parse printer counter data and store it in the SQLite DB.
+"CONTADORES Enterprise", parse printer counter data and store it in the SQLite DB.
 """
 
 import imaplib
@@ -15,7 +15,7 @@ IMAP_HOST = "imap.example.com"
 IMAP_USER = "your_email@example.com"
 IMAP_PASS = "your_password"
 MAILBOX = "INBOX"
-SUBJECT_FILTER = "CONTADORES AUTOMOTION"
+SUBJECT_FILTER = "CONTADORES Enterprise"
 
 # Regex patterns to extract data from email body (example format)
 # Expected lines like: "ID: PRINTER123", "Data: 2025-08-15", "TotalPages: 12345"

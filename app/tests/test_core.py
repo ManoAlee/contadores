@@ -27,7 +27,7 @@ def test_extract_serials():
 
 def test_load_ips(tmp_path):
     p = tmp_path / 'ips.txt'
-    p.write_text('TI,10.0.0.173\n10.0.0.5\n')
+    p.write_text('TI,192.168.1.200\n10.0.0.5\n')
     ips = load_ips(str(p))
-    assert ('TI', '10.0.0.173') in ips
+    assert ('TI', '192.168.1.200') in ips
     assert (None, '10.0.0.5') in ips

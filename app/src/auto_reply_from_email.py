@@ -151,7 +151,7 @@ def main():
         if not args.smtp_pass:
             try:
                 import keyring
-                stored = keyring.get_password('automotion_smtp', args.smtp_user)
+                stored = keyring.get_password('Enterprise_smtp', args.smtp_user)
                 args.smtp_pass = stored
             except Exception:
                 args.smtp_pass = None

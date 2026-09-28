@@ -1,9 +1,9 @@
-To: karen@expressbrasil.com.br
+To: karen@example.com
 Subject: Re: Contadores solicitados
 
 Boa Tarde!
 
-karen@expressbrasil.com.br
+karen@example.com
 
 Segue os contadores solicitados:
 
